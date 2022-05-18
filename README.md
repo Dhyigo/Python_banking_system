@@ -1,6 +1,11 @@
 # banking_system
 Sistema bancário feito em python, com muitas funcionalidades(BETA) 
 
+<div align="center">
+  <a href="https://i2.paste.pics/b73ef02b8a03b7668458784e696747cb.png">
+  <img height="180" width="45%" src="https://paste.pics/b73ef02b8a03b7668458784e696747cb"/>
+</div>
+  
 ## Resquisitos(Prerequisites)
 * Python 3
 * IDE(Pycharm, Vs code, etc)
