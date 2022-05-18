@@ -3,7 +3,7 @@ Sistema bancário feito em python, com muitas funcionalidades(BETA)
 
 <div align="center">
   <a href="https://i2.paste.pics/b73ef02b8a03b7668458784e696747cb.png">
-  <img height="180" width="45%" src="https://paste.pics/b73ef02b8a03b7668458784e696747cb"/>
+  <img align="center" alt"Pybank" src="https://i2.paste.pics/b73ef02b8a03b7668458784e696747cb.png"/>
 </div>
   
 ## Resquisitos(Prerequisites)
