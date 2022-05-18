@@ -1,5 +1,5 @@
 # banking_system
-Sistema bancário feito em python, com muitas funcionalidades(BETA) 
+Sistema bancário feito em python.
 
 <div align="center">
   <a href="https://i2.paste.pics/b73ef02b8a03b7668458784e696747cb.png">
