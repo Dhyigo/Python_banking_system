@@ -18,9 +18,9 @@ def arquivoExiste(arq, pasta='dados'):
 
 def criarpasta(pasta):
     """
-    gerador de pasta
-    :param pasta: nome da pasta
-    :return: None
+    gerador de pasta.
+    :param pasta: nome da pasta.
+    :return: None.
     """
     from os import makedirs
     makedirs(pasta)
@@ -29,9 +29,9 @@ def criarpasta(pasta):
 def criarArquivo(newarq, pasta='dados'):
     """
     Criar arquivos.
-    :param newarq: Nome do novo arquivo txt
-    :param pasta: pasta onde deve ser criado
-    :return: True
+    :param newarq: Nome do novo arquivo txt.
+    :param pasta: pasta onde deve ser criado.
+    :return: True.
     """
     if not arquivoExiste(newarq, pasta):
         try:
@@ -50,10 +50,10 @@ def criarArquivo(newarq, pasta='dados'):
 def escrever(pasta, arquivo, texto):
     """
     escrve em um arquivo txt.
-    :param pasta: Nome da pasta
-    :param arquivo: Nome do arquivo
-    :param texto: texto que deseja escrever
-    :return: None
+    :param pasta: Nome da pasta.
+    :param arquivo: Nome do arquivo.
+    :param texto: texto que deseja escrever.
+    :return: None.
     """
     try:
         with open(f'{pasta}//{arquivo}.txt', 'a+', encoding='UTF-8') as arq:
@@ -98,8 +98,8 @@ def lerlinhas(arquivo, pasta='dados'):
 def verificar(documento, arquivo='user', pasta='user'):
     """
     Verifica se a pessoa existe nos registros.
-    :param arquivo: nome do arquivo(por padrão é user)
-    :param pasta: nome da pasta(por padrão é user)
+    :param arquivo: nome do arquivo(por padrão é user).
+    :param pasta: nome da pasta(por padrão é user).
     :param documento: documento da pessoa questão.
     :return: True se foi encontradoe False se não encontrado.
     """
@@ -128,7 +128,7 @@ def attArquivo(dados, arquivo='id', pasta='user'):
     :param dados: Informações a ser atualizadas.
     :param arquivo: Nome do arquivo que deseja atulizar.
     :param pasta: Nome da pasta onde o arquivo está.
-    :return: None
+    :return: None.
     """
     with open(f'{pasta}//{arquivo}.txt', 'w') as att:
         att.writelines(f'{dados}')
