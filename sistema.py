@@ -217,7 +217,7 @@ def extratos(conta):
         linha(cor=33)
         for v in extrato:
             v = v.replace('\n', '')
-            v = v.split(';')  # dividir em: 1° ind. frase, 2° valor R$, 3° data.
+            v = v.split(';')  # dividir em: 1° índice. frase, 2° índice valor R$, 3° índice data.
             print(f'{v[0]:11} {v[1]:33} {v[2]}')
             aguarde(0.5, False)
 
